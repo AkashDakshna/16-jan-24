@@ -1,1 +1,5 @@
-First line
+node{
+   stage('SCM Checkout'){
+     git 'https://github.com/AkashDakshna/16-jan-24.git'
+   }
+}
